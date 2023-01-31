@@ -1,5 +1,5 @@
 {% set name = "pyproject-metadata" %}
-{% set version = "0.6.1" %}
+{% set version = "0.7.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyproject-metadata-{{ version }}.tar.gz
-  sha256: b5fb09543a64a91165dfe85796759f9e415edc296beb4db33d1ecf7866a862bd
+  sha256: 0a94f18b108b9b21f3a26a3d541f056c34edcb17dc872a144a15618fed7aef67
 
 build:
   noarch: python
